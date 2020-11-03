@@ -1,61 +1,44 @@
 <!DOCTYPE html>
-
-<!--OMA CSS TIEDOSTO JOHON LINKKI-->
-<!-- 
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
--->
-<!--helpompi muotoilla-->
-
 <html>
   <head>
     <title>Karri Sarmanne - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css">
-      #header{
-        background-color:#6699ff;
-        color:black;
-        text-align:center;
-        padding:1px;
-      }
-      #body{
-        background-color:#cce6ff;
-        text-align:center;
-      }
-      table{
-        margin-left:auto;
-        margin-right:auto;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
   </head>
-  <body id="body">
-    <header id="header">
-      <h1>Karri Sarmanne - Portfolio</h1>
+  <body>
+    <header>
+        <h1>Karri Sarmanne - Portfolio</h1>
     </header>
-    <table width="35%" border="2">
+    <table class="opinnotTaulukko" border="2">
       <caption><h2>Opintoni</h2></caption>
       <tr>
+        <th>Opintokokonaisuus</th>
         <th>Aloitusvuosi</th>
         <th>Suoritusvuosi</th>
-        <th>Opintokokonaisuus</th>
       </tr>
       <tr>
+        <td>Peruskoulu</td>
         <td>2011</td>
         <td>2020</td>
-        <td>Peruskoulu</td>
       </tr>
       <tr>
-        <td>2020</td>
-        <!--Suoritusvuosi 2023??-->
-        <td>-</td> 
         <td>Tieto- ja viestintätekniikan perustutkinto</td>
+        <td>2020</td> 
+        <td>-</td>
+        <!--Suoritusvuosi 2023??-->
       </tr>
     </table>
-    <ul>
-
-    </ul>
     <br><br>
+    <caption>Luonteenpiirteet</caption>
+      <ul>
+        <li>Rauhallinen ja kärsivällinen</li>
+        <li>Laiska</li>
+      </ul>
+    <br>
+    <!--<caption>Erityistaidot</caption>
+      <ul>
+        <li></li>
+      </ul>-->
       <a href="ota-yhteytta.html">Ota yhteyttä</a>
   </body>
 </html>
