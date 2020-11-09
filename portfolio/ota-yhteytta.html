@@ -3,7 +3,7 @@
   <head>
     <title>Ota yhteyttä</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="portfolio">
   </head>
   <body>
     <header>
@@ -14,25 +14,26 @@
     <h2>Ota yhteyttä</h2>
     <div class="yhteydenottoLomake">
       <form action="" method="">
-        <label>Nimi:</label>
-        <input type="text" placeholder="Etunimi">
-        <input type="text" placeholder="Sukunimi"><br><br>
-        <label>Sähköposti:</label>
+        <label for="eNimi">Etunimi:</label>
+        <input type="text" id="eNimi" name="eNimi">
+       <label for="sNimi">Sukunimi:</label>
+        <input type="text" id="sNimi" name="sNimi"><br><br>
+        <label for="email">Sähköposti:</label>
         <input type="email"><br><br>
-        <label>Puhelinnumero:</label>
-        <input type="text"><br><br>
-        <label>Ikä:</label>
+        <label for="puhelinnumero">Puhelinnumero:</label>
+        <input type="tel"><br><br>
+        <label for="ika">Ikä:</label>
         <input type="number"><br><br>
-        <label>Syntymäaika:</label>
+        <label for="syntymaAika">Syntymäaika:</label>
         <input type="date"><br><br>
-        <label>Terveiset:</label>
+        <label for="terveiset">Terveiset:</label>
         <textarea></textarea><br><br>
         <label>Miten haluat, että olen yhteydessä?</label><br>
         <select>
           <option value="-">-</option>
           <option value="puhelimitse">Puhelimitse</option>
           <option value="sähköpostitse">Sähköpostitse</option>
-          <option value="ei yhteyttä">En halua, että minuun otetaan yhteyttä.</option>
+          <option value="eiYhteytta">En halua, että minuun otetaan yhteyttä.</option>
         </select><br><br>
         <input type="submit">
       </form>
