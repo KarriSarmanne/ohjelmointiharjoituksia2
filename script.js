@@ -3,6 +3,9 @@
 riviä
 kommenttia
 */
+function laskutehtava(ekaNumero, tokaNumero){
+  return ekaNumero + tokaNumero;
+}
 
 console.log('Täällä ollaan');
 
@@ -108,3 +111,31 @@ const laksyTehtava = laksyt.map(function(laksy){
 });
 
 console.log(laksyTehtava);
+
+console.log('-------------------------')
+
+const tehtavaTehty = laksyt.filter(function(laksy){
+  return laksy.tehty === false; 
+}).map(function(laksy){
+  return laksy.tehtava;
+});
+
+console.log(tehtavaTehty);
+
+const numero = 18;
+const nimi = 'Jorma';
+
+if(numero < 20 || nimi === 'Jorma'){
+  console.log('Olet alaikäinen tai Jorma. Et ole tervetullut');
+}else if(numero === 18){
+  console.log('Onnea, olet juuri tullut täysi-ikäiseksi!');
+}else{
+  console.log('Olet täysi-ikäinen.');
+}
+
+const access = numero > 18 ? 'granted' : 'denied';
+console.log(access);
+
+laskutehtava(5, 2);
+
+console.log(laskutehtava(5, 2))
