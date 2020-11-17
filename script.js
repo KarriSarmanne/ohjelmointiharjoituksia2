@@ -156,12 +156,15 @@ kurssinappi.addEventListener('click', e =>{
   
   if(nimiSisalto.value === '' || asiaSisalto.value === ''){
     virhe.classList.add('virhe');
-    virhe.innerHTML = 'Täytä kaikki kentät';
+    virhe.innerHTML = 'Täytä kaikki kentät!';
     kurssinappi.style.background = 'rgb(160, 7, 7)';
     kurssinappi.value = 'Virhe! En lisännyt tietoa.';
-    setTimeout(() => virhe.remove(), 3000);
-    setTimeout(() => kurssinappi.style.background = 'rgb(51, 44, 44)' , 3000);
-    setTimeout(() => kurssinappi.value = 'Lisää tieto', 3000);
+
+
+
+    setTimeout(() => virhe.remove(), 1000);
+    setTimeout(() => kurssinappi.style.background = 'rgb(51, 44, 44)' , 1000);
+    setTimeout(() => kurssinappi.value = 'Lisää tieto', 1000);
   }else{
     const li = document.createElement('li');
 

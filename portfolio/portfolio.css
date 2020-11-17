@@ -1,15 +1,29 @@
 body{
-  background-color: #d4eaffe8;
-  text-align: left;
+  background: #a4d3e9;
+  text-align: center;
+  width: 60%;
+  margin: auto;
 }
 header{
-  background-color: #0080ffde;
-  padding: 0.1em;
+  background: #4294ff;
+  padding: 1px;
+}
+
+.opinnot{
+  margin: auto;
 }
 .opinnotTaulukko{
-  background-color: #0080ff54;
+  background: #0080ff54;
   text-align: center;
+  align-self: center;
 }
-form{
-  display: block;
+
+.lomake{
+  float: ;
+  display: ;
+}
+.lomakeElementti{
+  float: none;
+  display: inline-block;
+  width: 50%;
 }
