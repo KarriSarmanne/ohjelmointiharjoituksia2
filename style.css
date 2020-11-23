@@ -117,7 +117,7 @@ header{
   background: #8ddbff;
   padding: 15px;
 }
-#opiskelija-lomake input[type='text']{
+#opiskelija-lomake input[type='text'], #opiskelija-lomake textarea{
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -134,6 +134,22 @@ header{
   border-radius: 5px;
   margin: 5px 0;
 }
+.kurssinappi:hover{
+  background: #444;
+}
+.laheta-nappi{
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: #332c2c;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.laheta-nappi:hover{
+  background: #444;
+}
 .merkinta{
   display: block;
   width: 100%;
@@ -143,9 +159,6 @@ header{
   color: #fff;
   border-radius: 5px;
   margin: 5px 0;
-}
-.kurssinappi:hover{
-  background: #444;
 }
 .merkinta:hover{
   background: #444;
